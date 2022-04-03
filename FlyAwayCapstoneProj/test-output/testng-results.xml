@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-03T20:54:51 IST" name="Default suite" finished-at="2022-04-03T20:54:54 IST" duration-ms="2693">
+    <groups>
+    </groups>
+    <test started-at="2022-04-03T20:54:51 IST" name="Default test" finished-at="2022-04-03T20:54:54 IST" duration-ms="2693">
+      <class name="com.listeners.FlightBooking">
+        <test-method signature="Registrationpage()[pri:0, instance:com.listeners.FlightBooking@1e683a3e]" started-at="2022-04-03T20:54:51 IST" name="Registrationpage" finished-at="2022-04-03T20:54:53 IST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registrationpage -->
+        <test-method signature="Clicks_signup()[pri:0, instance:com.listeners.FlightBooking@1e683a3e]" started-at="2022-04-03T20:54:53 IST" name="Clicks_signup" finished-at="2022-04-03T20:54:53 IST" depends-on-methods="com.listeners.FlightBooking.Registrationpage" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clicks_signup -->
+        <test-method signature="homepage()[pri:0, instance:com.listeners.FlightBooking@1e683a3e]" started-at="2022-04-03T20:54:53 IST" name="homepage" finished-at="2022-04-03T20:54:53 IST" depends-on-methods="com.listeners.FlightBooking.Clicks_signup" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="login_successfully()[pri:0, instance:com.listeners.FlightBooking@1e683a3e]" started-at="2022-04-03T20:54:53 IST" name="login_successfully" finished-at="2022-04-03T20:54:53 IST" depends-on-methods="com.listeners.FlightBooking.homepage" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_successfully -->
+        <test-method signature="Flight_Booking_Details()[pri:0, instance:com.listeners.FlightBooking@1e683a3e]" started-at="2022-04-03T20:54:53 IST" name="Flight_Booking_Details" finished-at="2022-04-03T20:54:54 IST" depends-on-methods="com.listeners.FlightBooking.login_successfully" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Flight_Booking_Details -->
+      </class> <!-- com.listeners.FlightBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
